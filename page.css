@@ -1,0 +1,52 @@
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    padding: 100px;
+  }
+  
+  
+ */
+ body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.card {
+  width: 300px;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+}
+
+.card h2 {
+  color: #1a73e8;
+}
+
+.card p {
+  color: #333;
+  line-height: 1.6;
+}
+
+.copy-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+/* Optional: Add media queries to make the cards responsive */
+@media (max-width: 768px) {
+  .cards-container {
+      justify-content: center;
+  }
+}

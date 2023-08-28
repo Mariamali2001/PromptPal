@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "PromptPal: TopicGuides Extension",
+  "version": "1.0",
+  "description": "A Chrome extension to select predefined prompts for OpenAI",
+  "permissions": ["tabs"],
+  "icons": {
+    "48": "Iconn.png"
+  },
+
+  "action": { 
+  "default_popup": "popup.html", 
+   "default_title":"CVG Prompt"  },
+
+"background": {
+  "service_worker": "background.js"
+},
+
+"content_scripts": [
+  {
+    "matches": ["<all_urls>"],
+    "js": ["content.js"]
+  }
+]
+}

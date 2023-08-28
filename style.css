@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #3b3d33;
+  margin: 0;
+  padding: 0;
+}
+
+.cards-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card-b {
+  cursor: pointer;
+  width: 300px;
+  height: 40px;
+  border: 1px solid #fdfdfd;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  color: #fff7f7;
+  transition: background-color 0.3s ease;
+}
+
+.card:hover {
+  background-color: #f0f0f0;
+}
+
+.prompts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  padding: 10px;
+}
+
+
+.back-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.back-button {
+  padding: 10px 20px;
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.back-button:hover {
+  background-color: #155cb3;
+}
+
+
+.copy-icon {
+  display: inline-block;
+  
+  cursor: pointer;
+}
+
+.copy-icon img {
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  
+}
+
