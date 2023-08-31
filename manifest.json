@@ -12,9 +12,7 @@
   "default_popup": "popup.html", 
    "default_title":"CVG Prompt"  },
 
-"background": {
-  "service_worker": "background.js"
-},
+
 
 "content_scripts": [
   {
